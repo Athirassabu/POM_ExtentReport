@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="2" guice-stage="DEVELOPMENT" verbose="5" name="Failed suite [TestSuite]">
+  <test thread-count="2" verbose="5" name="ChromeTest(failed)" parallel="classes">
+    <parameter name="password" value="India$123"/>
+    <parameter name="browser" value="Chrome"/>
+    <parameter name="username" value="hari.radhakrishnan@testleaf.com"/>
+    <classes>
+      <class name="testcases.DeleteTest">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="testDetails"/>
+          <include name="endReport"/>
+          <include name="setup"/>
+          <include name="Delete"/>
+          <include name="startReport"/>
+          <include name="setFile"/>
+        </methods>
+      </class> <!-- testcases.DeleteTest -->
+    </classes>
+  </test> <!-- ChromeTest(failed) -->
+</suite> <!-- Failed suite [TestSuite] -->

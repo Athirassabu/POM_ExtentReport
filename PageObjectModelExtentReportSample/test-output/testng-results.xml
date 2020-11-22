@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="TestSuite" duration-ms="86340" started-at="2020-11-17T08:26:58 IST" finished-at="2020-11-17T08:28:25 IST">
+    <groups>
+    </groups>
+    <test name="ChromeTest" duration-ms="86340" started-at="2020-11-17T08:26:58 IST" finished-at="2020-11-17T08:28:25 IST">
+      <class name="testcases.DeleteTest">
+        <test-method status="PASS" signature="startReport()[pri:0, instance:testcases.DeleteTest@704d6e83]" name="startReport" is-config="true" duration-ms="325" started-at="2020-11-17T08:26:58 IST" finished-at="2020-11-17T08:26:58 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startReport -->
+        <test-method status="PASS" signature="setFile()[pri:0, instance:testcases.DeleteTest@704d6e83]" name="setFile" is-config="true" duration-ms="0" started-at="2020-11-17T08:26:58 IST" finished-at="2020-11-17T08:26:58 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setFile -->
+        <test-method status="PASS" signature="testDetails()[pri:0, instance:testcases.DeleteTest@704d6e83]" name="testDetails" is-config="true" duration-ms="4" started-at="2020-11-17T08:26:58 IST" finished-at="2020-11-17T08:26:58 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDetails -->
+        <test-method status="PASS" signature="setup(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.DeleteTest@704d6e83]" name="setup" is-config="true" duration-ms="10428" started-at="2020-11-17T08:26:59 IST" finished-at="2020-11-17T08:27:09 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[hari.radhakrishnan@testleaf.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[India$123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="Delete(java.lang.String)[pri:0, instance:testcases.DeleteTest@704d6e83]" name="Delete" duration-ms="33355" started-at="2020-11-17T08:27:09 IST" data-provider="fetchData" finished-at="2020-11-17T08:27:43 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Athira]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Delete -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:testcases.DeleteTest@704d6e83]" name="closeBrowser" is-config="true" duration-ms="776" started-at="2020-11-17T08:27:43 IST" finished-at="2020-11-17T08:27:44 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="setup(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.DeleteTest@704d6e83]" name="setup" is-config="true" duration-ms="13332" started-at="2020-11-17T08:27:44 IST" finished-at="2020-11-17T08:27:57 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[hari.radhakrishnan@testleaf.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[India$123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="Delete(java.lang.String)[pri:0, instance:testcases.DeleteTest@704d6e83]" name="Delete" duration-ms="26933" started-at="2020-11-17T08:27:57 IST" data-provider="fetchData" finished-at="2020-11-17T08:28:24 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Kavya]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Delete -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:testcases.DeleteTest@704d6e83]" name="closeBrowser" is-config="true" duration-ms="840" started-at="2020-11-17T08:28:24 IST" finished-at="2020-11-17T08:28:25 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="endReport()[pri:0, instance:testcases.DeleteTest@704d6e83]" name="endReport" is-config="true" duration-ms="317" started-at="2020-11-17T08:28:25 IST" finished-at="2020-11-17T08:28:25 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
+      </class> <!-- testcases.DeleteTest -->
+    </test> <!-- ChromeTest -->
+  </suite> <!-- TestSuite -->
+</testng-results>
